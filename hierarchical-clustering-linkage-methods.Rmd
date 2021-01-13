@@ -122,7 +122,7 @@ cutree(hcmt2A, 3)
 
 Figure 7 shows a mosaic plot of our three chosen clusters by our withheld variable, Beale Code. This diagram shows there is a clear relationship between these factors. Clusters 2 and 3 are made up entirely of Beale Codes of 3 and 5, with cluster 3 majority Beale Code 3, and cluster 2 majority Beale Code 5. Cluster 1 contains all of Beale Codes 6-9, as well as one county classified with a Beale Code of 3. 
 
-In summary, all metropolitan areas, as well as the largest non-metro areas, were clustered into clusters 2 and 3, with the exception of one county. This unusual county is Carbon county. Carbon county is pretty average in terms of population size, but is classified with a Beale Code of 1 because it belongs to the greater Billings metropolitan area. It is interesting to note that in terms of this data, Carbon county aligns more closely with the smaller county cluster than its neighbor Yellowstone county.
+In summary, all metropolitan areas, as well as the largest non-metro areas, were clustered into clusters 2 and 3, with the exception of one county. This unusual county is Carbon county. Carbon county is pretty average in terms of population size, but is classified with a Beale Code of 3 because it belongs to the greater Billings metropolitan area. It is interesting to note that in terms of this data, Carbon county aligns more closely with the smaller county cluster than its neighbor Yellowstone county.
 
 ```{r, warning = F, message = F, fig.cap = "Figure 7. Mosaic plot of clusters vs. Beale code.", fig.height=6, fig.width=8}
 # compare clusters to beale code
